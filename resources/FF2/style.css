@@ -1,0 +1,140 @@
+/********************************/
+/* FileFormat Stylesheet		*/
+/* Created:  01.07.2007	    	*/
+/* Modified: 12.10.2007			*/
+/********************************/
+
+/* Tutorial */
+.tutorial
+{
+	margin-left: 30px;
+	margin-right: 30px;
+	line-height: 1.5;
+	text-align: justify;
+	font-family: Arial; 
+	font-size: 12px;
+}
+
+h2.tutorial {font-size: 20px; margin-left: 30px;}
+h3.tutorial {font-size: 18px; margin-left: 40px;}
+h4.tutorial {font-size: 16px; margin-left: 50px;}
+
+#lower1 {margin-left: 40px;}
+#lower2 {margin-left: 50px;}
+#tocLink {font-size: 16px; font-weight: bold;}
+#tocLink2 {font-size: 14px; font-weight: bold;}
+#tocLink3 {font-size: 12px; font-weight: bold;}
+#rights { font-size: 10px; text-align: center;}
+
+
+/* Events */
+body
+{
+	font-family: Arial;
+	background: #C0C0C0;
+	margin:0px;
+	padding: 0px; 
+	border:0; 
+	height:100%; 
+	overflow-y:auto;
+}
+
+h2 {font-size: 20px;}
+hr {page-break-after:always;}
+
+.sidePane
+{
+	position: fixed;
+	border: 0px;
+	background: #C0C0C0;
+	top: 0px;
+	left: 0px;
+	width: 19px;
+	height: 100%;
+}
+
+.contentPane
+{
+	width: 700px;
+	overflow: visible;
+	background: #FFFFFF;
+	border: 2px outset #000000;
+	z-index: 1;
+	display:block;
+	left: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: absolute;
+}
+
+.eventInfoBar
+{
+	position:fixed;
+	background: #C0C0C0;
+	height: 120px;
+	width: 390px;
+	overflow: auto;
+	border: 2px #000000 outset;
+	border-left: 0px;
+	z-index: 2;
+	display: block;
+	padding-left: 10px;
+	margin-left:auto;
+	margin-right: auto;
+	top: 200px;
+	left: 20px;
+}
+
+*html #idEventInfoBar {position: absolute;}
+*html #idSidePane {position: absolute;}
+
+a:link {color: #000000; text-decoration: none; font-size: 10;}
+a:hover {color: #FF0000; text-decoration: none; font-size: 10;}
+a:visited {color: #000000; text-decoration: none; font-size: 10;}
+
+.event {width: 610px; font-size: 12px;}
+
+.eventInfo
+{
+	width: 480px;
+	vertical-align:text-top;
+	border-bottom: 1px #000000 solid;
+	border-right: 1px #000000 solid;
+	padding: 3px;
+}
+
+.params {font-size: 12px; width: 610px;}
+.row {font-size: 12px; border-top: 10px #000000 solid;}
+.margin {width:20px; background: #FFFFFF; border: 0px #FFFFFF solid;}
+
+.shortName 
+{
+	width: 120px;
+	border-left: 1px #000000 solid;
+	border-right: 1px #000000 solid;
+	border-bottom: 1px #000000 solid;
+	vertical-align:text-top;
+	padding: 3px;
+	margin-left: 40px;
+}
+
+.type 
+{
+	width: 80px; 
+	border-bottom: 1px solid #000000; 
+	vertical-align:text-top;
+	padding: 3px;
+}
+
+.desc
+{
+	width: 340px;
+	border-left: 1px #000000 solid;
+	border-right: 1px #000000 solid;
+	border-bottom: 1px #000000 solid;
+	vertical-align:text-top;
+	padding: 3px;
+}
+#header {border-top: 1px solid #000000; border-bottom: 2px solid #000000;}
+
+SPAN.normalText {color: #000000; font-size: 12px; margin-left: 2px;}
